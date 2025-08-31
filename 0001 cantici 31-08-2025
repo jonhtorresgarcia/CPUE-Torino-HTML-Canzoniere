@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CPUE-TORINO SONGS 29-08-25</title>
+    <style>
+        /* Reset e base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #2c3e50; /* blu scuro elegante */
+            color: #ecf0f1; /* grigio chiaro */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            padding: 15px;
+            max-width: 100%;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        /* Titoli */
+        h1 {
+            text-align: center;
+            font-size: 1.6rem;
+            margin: 20px 0 10px;
+            color: #ffffff; /* arancione acceso */
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            margin: 25px 0 10px;
+            color: #a9cef2; /* giallo */
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #91cdf6; /* blu chiaro */
+        }
+
+        /* Paragrafi */
+        p {
+            font-size: 1.1rem;
+            margin: 10px auto;
+            max-width: 95%;
+            text-align: center;
+            white-space: pre-line; /* mantiene i \n come salti riga */
+        }
+
+        /* INDICE */
+        #indice {
+            background-color: #34495e;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        #indice h3 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        #indice ul {
+            list-style: none;
+        }
+
+        #indice li {
+            margin: 10px 0;
+        }
+
+        #indice button {
+            width: 100%;
+            padding: 14px;
+            font-size: 1.1rem;
+            background-color: #16205e; /* verde acceso */
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        #indice button:hover,
+        #indice button:active {
+            background-color: #16205e;
+        }
+
+        /* Sezioni canzoni */
+        section {
+            margin: 30px 0;
+            padding: 10px;
+            border-bottom: 1px solid #cceaec;
+        }
+
+        /* BARRA FISSA IN BASSO (MOBILE FRIENDLY) */
+        .barra-basso {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background-color: #2c3e50;
+            border-top: 2px solid #2d2f3f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+        }
+
+        .barra-basso button {
+            width: 90%;
+            max-width: 300px;
+            padding: 12px 16px;
+            font-size: 1.1rem;
+            background-color: #2d2f3f;
+            color: rgb(116, 176, 241);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .barra-basso button:active {
+            transform: scale(0.98);
+            background-color: #2980b9;
+        }
+
+        /* Evita zoom su iOS */
+        input, button {
+            touch-action: manipulation;
+        }
+    </style>
+</head>
+<body>
+    <!-- Nome Archivio -->
+    <h1>Lode: 31/08/2025</h1>
+        <br>
+
+    <!-- INDICE -->
+    <div id="indice">
+        <h3>INDICE CANZONI</h3>
+        <ul>
+            <li><button onclick="document.getElementById('lode-1').scrollIntoView();">DI GLORIA IN GLORIA TI VEDO (Bb)</button></li>
+            <li><button onclick="document.getElementById('lode-2').scrollIntoView();">CUORE PURO (Bb)</button></li>
+            <br>
+            <li><button onclick="document.getElementById('lode-3').scrollIntoView();">LA PRESENZA DI DIO È QUI (Bb)</button></li>
+            <li><button onclick="document.getElementById('lode-4').scrollIntoView();">NEL PRINCIPIO (Bb)</button></li>
+            <li><button onclick="document.getElementById('lode-5').scrollIntoView();">IL NOME DI GESÙ (Bb)</button></li>
+            <li><button onclick="document.getElementById('lode-6').scrollIntoView();">CELEBRIAMO E ADORIAMO (Bb)</button></li>
+            <br>
+            <li><button onclick="document.getElementById('lode-7').scrollIntoView();">ERA LÌ (E)</button></li>
+            <li><button onclick="document.getElementById('lode-8').scrollIntoView();">NEL RESTAR ALLA PRESENZA (E)</button></li>
+            <li><button onclick="document.getElementById('lode-9').scrollIntoView();">DE TAL MANERA (Bb)</button></li>
+        </ul>
+    </div>
+
+        <br>
+        <h1>CANZONI LENTE</h1>
+
+    <section id="lode-1">
+        <h2>DI GLORIA IN GLORIA TI VEDO (Bb)</h2>
+        <p>
+Di gloria 
+in gloria Ti vedo
+quanto più Ti conosco
+più voglio sapere di Te
+
+Mio Dio 
+Tu come il vasaio
+modellami, trasformami
+cambiami all'immagine tua
+
+Somigliare solo a Te
+per la vita come Te
+
+Esser pieno
+del tuo Spirito
+per portar al mondo
+il tuo amor
+        </p>
+    </section>
+
+    <section id="lode-2">
+        <h2>CUORE PURO (Bb)</h2>
+        <p>
+Dammi il tuo cuore Padre
+e che cresca in me
+il carattere di Cristo
+e del Tuo Spirito
+
+Fammi amare ciò che ami
+dammi la tua forza per
+sradicare dal mio cuore
+ciò che non è Tuo
+
+Io voglio stare, vicino a Te
+desiderare di piacere a Te
+
+Io voglio fare la Tua volontà
+ed adorarti
+
+Padre dammi un cuore puro
+Padre dammi un cuore che
+che ricerca il Tuo volto più di tutto
+
+Padre dammi mani pure
+Padre dammi mani che
+alzerò verso il cielo per adorarti<!-- Botón emoji limpio y pequeño -->
+<button class="btn-torna" onclick="document.getElementById('lode-2').scrollIntoView({behavior: 'smooth'});">
+    🔼
+</button>
+Chi salirà sul monte Tuo
+chi resterà davanti a Te
+
+Fa che sia io
+fa che io veda la gloria Tua
+        </p>
+    </section>
+    <br>
+    <h1>CANZONI VELOCI</h1>
+
+    <section id="lode-3">
+        <h2>LA PRESENZA DI DIO È QUI (Bb)</h2>
+        <p>
+La presenza di Dio è qui 
+Io la sento in me,
+
+La Sua mano mi sostien, 
+La Sua forza mi dà fe’;
+
+La presenza di Dio è qui 
+Io la sento in me.
+        </p>
+    </section>
+
+    <section id="lode-4">
+        <h2>NEL PRINCIPIO (Bb)</h2>
+        <p>
+Nel principio lo Spirito di Dio,
+Si muoveva sopra le acque,
+
+Però ora si sta muovendo
+Nel profondo del mio cuor.
+        </p>
+    </section>
+
+    <section id="lode-5">
+        <h2>IL NOME DI GESÙ (Bb)</h2>
+        <p>
+Il Nome di Gesù è poter
+il Nome di Gesù vittoria è
+
+Il Nome di Gesù innalzato sta
+il Nome di Gesù sublime è
+
+Io le canto e lo lodo
+io le canto e l'adoro
+perché il Nome di Gesù
+è poter
+        </p>
+    </section>
+
+    <section id="lode-6">
+        <h2>CELEBRIAMO E ADORIAMO (Bb)</h2>
+        <p>
+Celebriamo e adoriamo
+la Maestà, l'impero e il poter
+
+Con vere lodi e grande gioia
+canterò a Gesù il mio Re
+
+Perché Egli ha fatto grandi cose
+la sua grandezza meravigliosa
+
+Vinse le forze che mi legavan
+per la sua grazia son liberato
+        </p>
+    </section>
+
+    <section id="lode-7">
+        <h2>ERA LÌ (E)</h2>
+        <p>
+Era lì, per pagare il prezzo dei miei peccati
+era lì, soffrendo e pensando alla mia vita
+mentre tutti ridevan di lui
+
+Era lì, quando il sangue scendeva 
+dalla sua fronte
+
+era lì, mentre il sangue di Abele 
+gridava vendetta 
+il suo sangue grida amore
+
+Gesù era lì che soffriva con amore 
+era lì, non pensava al suo dolore
+
+Gesù era lì con lo sguardo verso il cielo 
+Padre mio!
+
+Era lì, sofferente in croce, con amore pregava
+era lì, padre mio perdona loro
+
+perche non sanno quel ch'essi fanno
+
+Era lì, nell'ultimo istante della sua vita
+era lì, una sola espressione uscì 
+dal suo cuore
+        </p>
+    </section>
+
+    <section id="lode-8">
+        <h2>NEL RESTAR ALLA PRESENZA (E)</h2>
+        <p>
+Nel restare alla presenza 
+divina Tua Signor,
+Nel contemplar la bellezza
+della Tua santità,
+Il mio spirito gioisce
+nella Tua Maestà,
+Adoro Te, adoro Te.
+
+Quando vedo la grandezza 
+del Tuo dolce amor,
+Nel contemplar la purezza
+del Tuo cuor Signor
+Il mio spirito gioisce
+nella Tua Maestà,
+
+Adoro Te, adoro Te.
+
+E nel restare qui, 
+davanti a Te T’adorerò,
+Prostrato ai Tuoi pie',
+tutto il mio cuor adora Te,
+
+E voglio sempre star 
+per adorar
+E contemplar Tua santità,
+Adoro Te Signor,
+io adoro Te.
+        </p>
+    </section>
+
+    <section id="lode-9">
+        <h2>DE TAL MANERA (Bb)</h2>
+        <p>
+De tal manera me amó
+Que Su vida no escatimó
+Hasta el final Él se entregó
+Y a la muerte fue, porque Él me amó
+
+De tal manera me amó
+Y no hay forma en que podré pagar
+El precio de Su grande amor
+Pero toda mi alma quiero dar
+
+Por Su amor, yo viviré
+De Su amor, yo cantaré
+Con mi Jesús, caminaré
+Porque Él me amó a mí
+
+Por Su amor, yo viviré
+De Su amor, yo cantaré
+Con mi Jesús, caminaré
+Porque Él murió por mí
+
+Le seguiré
+        </p>
+
+    <!-- BARRA FISSA MOBILE -->
+    <div class="barra-basso">
+        <button onclick="document.getElementById('indice').scrollIntoView();">
+            Torna all'indice
+        </button>
+    </div>
+
+</body>
+</html>
